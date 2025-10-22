@@ -1,0 +1,93 @@
+/* إعدادات عامة */
+body {
+    font-family: "Cairo", sans-serif;
+    background: linear-gradient(to bottom right, #eef3f9, #dfe8f1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    direction: rtl;
+    color: #333;
+}
+  /* الصندوق الرئيسي */
+.container {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 35px 40px;
+    text-align: center;
+    width: 480px;
+}
+  /* العنوان الرئيسي والفرعي */
+.container h1 {
+    color: #1d3557;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.container h3 {
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+  /* المربعات */
+boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.box-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box-1 p {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.box-1 span {
+    color: #1d3557;
+    font-weight: 700;
+}
+  /* أزرار النتيجة */
+.bu-1 {
+    background-color: #7f8a9e;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(13, 110, 253, 0.2);
+    margin: 5px 0;}
+.bu-1 span {
+    font-weight: 800;
+    color: #fff;
+}
+    /* ألوان الأزرار */
+.green { background-color: green; color: white; }
+.blue { background-color: lightgreen; color: black; }
+.orange { background-color: orange; color: white; }
+.yellow { background-color: yellow; color: black; }
+.red { background-color: red; color: white; }
+.dark { background-color: rgb(40, 40, 40); color: white; }
+
+
+
+
+
+
