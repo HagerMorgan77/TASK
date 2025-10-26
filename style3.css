@@ -1,0 +1,185 @@
+/*_____________________ Start Products Style ______________________*/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: #cbcbcb;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+  /* البطاقة الرئيسية */
+.container {
+    width: 300px;
+}
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: 0.3s;
+    height: 590px;
+}
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+  /* معلومات المنتج */
+.product-info {
+    padding: 10px;
+}
+
+.product-category {
+    font-size: 13px;
+    font-weight: 600;
+    color: #7e7700;
+    margin: 0;
+    text-transform: capitalize;
+    /* margin-top: 3px; */
+}
+.product-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+    margin: 5px 0;
+    line-height: 1.4;
+    height: 48px;
+    margin-bottom: 1px;
+}
+.product-description {
+    font-size: 11.5px;
+    color: #666;
+    margin: 10px 0;
+    height: 55px;
+    overflow: hidden;
+}
+
+  /* السعر والتقييم */
+.product-price {
+    font-size: 19px;
+    font-weight: 700;
+    color: #839200;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+.product-rating {
+    font-size: 13px;
+    color: #393939;
+    font-weight: 600;
+}
+  /* الأزرار أسفل البطاقة */
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+.badge {
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.badge.offer {
+    background: #27ae60;
+}
+.badge.out {
+    background: #e74c3c;
+}
+.badge.discount {
+    background: #2ecc71;
+}
+.badge.new {
+    background: #9b59b6;
+}
+
+.badge.warranty {
+    background: #3498db;
+}
+
+  /* Responsive */
+@media (max-width: 768px) {
+    body {
+    padding: 10px;
+    gap: 5px;
+    }
+    .container {
+    width: 90%;
+    }
+}
+.sp {
+    background: linear-gradient(to right, #aeaeae, #717171);
+    color: white;
+    width: 41%;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 3px;
+    align-items: center;
+    font-weight: bold ;
+}
+.note {
+    background: linear-gradient(to right, #656565, #a1a1a1);
+    color: rgb(255, 255, 255);
+    width: 43%;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 3px;
+    align-items: center;
+    font-weight: bold;
+}
+.if {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin-bottom: 2px;
+    margin-top: 3px;
+}
+.category-son{
+background-color: #654d4d;
+margin: 0;
+background: linear-gradient(to right, #fff, #7a7a7ace);
+    color: rgb(0, 0, 0);
+    width: 88%;;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 2px;
+    border: #a2a2a2 2px solid;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15px;
+}
+.container {
+    width: 300px;
+}
+.product-card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* صورة المنتج */
+.product-image {
+        width: 90%;
+        margin: auto;
+        height: 180px;
+        object-fit: contain;
+        background: #f9f9f9;
+        border-bottom: 1px solid #eee;
+    } 
+i {
+    color: #6f7500;
+}
+
+/*_____________________ End Products Style ______________________*/

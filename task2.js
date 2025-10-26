@@ -45,14 +45,14 @@ document.write(`
     <p>درجة الإنتاجية : <span>${Productivity} </span> </p>
     <p>درجة الالتزام : <span>${Commitment} </span> </p>
     <p>درجة روح التعاون : <span>${Team_cooperation} </span> </p>
-    <p>المتوسط : <span>${avg.toFixed(2)} </span> </p>
+    <p>المتوسط : <span>${avg.toFixed(0)} </span> </p>
     </div>
     <p class="bu-1">المتوسط العام : <span>${avg.toFixed(0)}</span> </p>
     <p class="bu-1 ${color}"> نتيجة التقييم  : <span>${Evaluation} </span> </p>
     </div>
     </div>
     `)
-//_______________END ____________
+//______________END ____________
 
 
 
